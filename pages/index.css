@@ -1,0 +1,74 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+
+.page {
+    background-color: #2A2C2F;
+    font-family: 'Inter';
+    
+}
+
+.page__container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    width: 142px;
+    height: 42px;
+}
+
+.header__lang-selector{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.header__lang{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.1;
+}
+
+.header__lang_active{
+    text-decoration: underline;
+}
+
+@media (min-width: 768px){
+    .header{
+        width: calc(100% - 48px);
+        padding-top: 28px;
+    }
+    .header__logo{
+        width: 176px;
+        height: 52px;
+    }
+    .header__lang{
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1024px){
+    .header{
+        width: calc(100% - 96px);
+    }
+}
+
