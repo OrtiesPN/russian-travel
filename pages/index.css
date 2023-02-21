@@ -52,7 +52,7 @@
     text-decoration: underline;
 }
 
-@media (min-width: 768px){
+@media screen and (min-width: 768px){
     .header{
         width: calc(100% - 2*24px);
         padding-top: 28px;
@@ -66,7 +66,7 @@
     }
 }
 
-@media (min-width: 1024px){
+@media screen and (min-width: 1024px){
     .header{
         width: calc(100% - 2*48px);
     }
@@ -126,7 +126,7 @@
     text-transform: uppercase;
 }
 
-@media (min-width: 768px){
+@media screen and (min-width: 768px){
     .lead__title{
         font-size: 96px;
         line-height: 1.04;
@@ -146,7 +146,7 @@
     }
 }
 
-@media (min-width: 1024px){
+@media screen and (min-width: 1024px){
     .lead__figure{
         display: flex;
         flex-direction: column;
@@ -170,5 +170,76 @@
     }
     .lead__caption{
         margin: 8px 0 0 148px;
+    }
+}
+
+.intro{
+    color: #FFFFFF;
+    width: calc(100% - 2*16px);
+    padding: 64px 0 0 0;
+    text-align: start;
+}
+
+.intro__title{
+    margin: 0;
+    max-width: 288px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 1.09;
+}
+
+.intro__text{
+    margin: 40px 0 0 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.intro__list{
+    margin: 33px 0 0 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.intro__list-number{
+    font-weight: 400;
+}
+
+@media screen and (min-width: 768px){
+    .intro{
+        padding: 88px 0 0 0;
+        width: calc(100% - 2*24px);
+    }
+    .intro__title{
+        max-width: 720px;
+        font-size: 54px;
+        line-height: 1.07;
+    }
+    .intro__text{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .intro{
+        padding: 92px 0 0 48px;
+        max-width: 690px;
+        align-self: flex-start;
+    }
+
+}
+
+@media screen and (min-width: 1280px){
+    .intro{
+        padding-left: 148px;
     }
 }
