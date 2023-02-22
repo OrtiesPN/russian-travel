@@ -42,8 +42,7 @@
 @import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/section/section.css);
-@import url(../blocks/section/_mobile-wide/section_mobile-wide.css);
-@import url(../blocks/section/_tablet/section_tablet.css);
-@import url(../blocks/section/_laptop/section_laptop.css);
-@import url(../blocks/section/_desktop/section_desktop.css);
+@import url(../blocks/section-mobile-wide/section-mobile-wide.css);
+@import url(../blocks/section-tablet/section-tablet.css);
+@import url(../blocks/section-laptop/section-laptop.css);
+@import url(../blocks/section-desktop/section-desktop.css);
