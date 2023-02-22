@@ -1,0 +1,21 @@
+.places{
+    width: 100%;
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .places{
+        padding-top: 88px;
+        gap: 73px;
+    }
+}
+
+@media screen  and (min-width: 1024px) {
+    .places{
+        padding-top: 92px;
+        gap: 80px;
+    }  
+}

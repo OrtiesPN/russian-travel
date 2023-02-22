@@ -1,0 +1,5 @@
+@media screen and (min-width: 1280px){
+    .section_desktop{
+        width: calc(100% - 2*148px);
+    }
+}

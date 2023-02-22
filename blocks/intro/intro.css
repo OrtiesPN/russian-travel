@@ -1,0 +1,27 @@
+.intro{
+    color: #FFFFFF;
+    width: calc(100% - 2*16px);
+    padding: 64px 0 0 0;
+    text-align: start;
+}
+
+@media screen and (min-width: 768px){
+    .intro{
+        padding: 88px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .intro{
+        padding: 92px 0 0 48px;
+        max-width: 690px;
+        align-self: flex-start;
+    }
+
+}
+
+@media screen and (min-width: 1280px){
+    .intro{
+        padding-left: 148px;
+    }
+}
