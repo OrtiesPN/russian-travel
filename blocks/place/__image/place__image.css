@@ -3,9 +3,3 @@
     vertical-align: top;
     object-fit: cover;
 }
-
-@media screen and (min-width: 580px) {
-    .place__image{
-        width: 100%;
-    }     
-}

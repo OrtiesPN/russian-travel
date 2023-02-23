@@ -1,6 +1,7 @@
 .footer{
-    padding: 64px 0 24px 16px;
     width: 100%;
+    margin: 0 auto;
+    padding: 64px 0 24px 16px;
     text-align: start;
     box-sizing: border-box;
 }
